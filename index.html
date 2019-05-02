@@ -3,16 +3,21 @@
 <html lang="en">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <style>
+html,body {
+  margin: 0;
+  padding: 0;
+}
 body {
   background-color: #000010;
 }
 
 h1 {
-  font-size: 26px;
+  font-size: 20px;
   font-family: monospace;
-  color: #00ff00;
-  padding-bottom: 18px;
-  text-align: center;
+  color: #f7f4f5;
+  text-align: left;
+  margin: 0;
+  padding: 0;
 }
 p {
   font-size: 14px;
@@ -30,7 +35,6 @@ a {
   margin-top: 2px;
   margin-bottom: 2px;
 }
-
 .small {
   color: #00ff00;
   font-size: 10px;
@@ -43,9 +47,26 @@ a {
   font-size: 17px;
   font-style: oblique;
 }
+
+#block {
+  position: sticky;
+  top: 0;
+  height: 2em;
+  width: 100%;
+  background: rgba(105, 0, 79, 0.507);
+}
+#venom-bite1 {
+  position: absolute;
+  top: 0;
+  z-index: -999;
+}
 </style>
 
 <body>
+    <img id = "venom-bite1" src = "venomBiteWebsite1.jpg" width="1950" height="600">
+    <div id = block> <h1>General Info</h1></div>
+    <h1>William Djalal<br>Videogame Developer</h1>
+
   <h1>General Info</h1>
   <p><span style="color: blue">nano curriculumVitae.txt</span> My name is William Djalal, I'm 20 years old and live in Germany, Berlin.</p>
   <p><span style="color: blue">cd /home/projects</span> I study computer science at the Freie Universität Berlin.</p>
