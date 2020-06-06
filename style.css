@@ -1,0 +1,222 @@
+html,body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #000000;
+}
+
+/* Header, Paragraphs, Links */
+
+h1 {
+  font-size: 1vw;
+  font-family: 'Times New Roman', Times, serif;
+  color: #f7f4f5;
+  text-align: left;
+  margin: 0;
+  padding: 4px;
+}
+h2 {
+  font-size: 2vw;
+  font-family: 'Times New Roman', Times, serif;
+  color: #f7f4f5;
+  text-align: center;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  padding-top: 10%;
+}
+h3 {
+  font-size: 12px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #f7f4f5;
+  text-align: left;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  margin: 0;
+  padding-left: 12px;
+}
+h4 {
+  font-size: 2vw;
+  font-family: 'Times New Roman', Times, serif;
+  color: #f7f4f5;
+  text-align: center;
+  text-shadow: 2px 2px rgb(0, 0, 0);
+  padding-top: 30%;
+  padding-bottom: 5%;
+}
+
+p {
+  font-size: 1.3vw;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding-left: 10%;
+}
+a {
+  color: rgb(0, 255, 242);
+  font-size: 22px;
+  font-family: 'Times New Roman', Times, serif;
+  color: #ffffff;
+  text-align: left;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding-left: 10%;
+}
+
+/* Alignment things */
+
+.small {
+  color: #d3ffd3;
+  font-size: 12px;
+  font-family: 'Arial';
+  text-align: right;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  padding-right: 4px;
+}
+.fat {
+  font-size: 28px;
+  font-style: italic;
+}
+.center {
+  text-align: center;
+  display: inline;
+}
+.right {
+  text-align: right;
+  padding-right: 10%;
+}
+.left25 {
+  text-align: left;
+  padding-left: 25%;
+}
+.rightForce {
+  position: absolute;
+  right: 0;
+}
+
+#blockH {
+  position: sticky;
+  top: 0;
+  height: 2em;
+  width: 100%;
+  background: rgba(105, 0, 79, 0.212);
+}
+#blockV {
+  position: sticky;
+  top: 2em;
+  height: 50em;
+  width: 8em;
+  background: rgba(105, 0, 79, 0.212);
+  float: left;
+}
+
+/* Content */
+
+#testVideo {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+}
+#venom-bite1 {
+  position: absolute;
+  top: 0;
+  z-index: -999;
+}
+#shipmentscrew1 {
+  float: right;
+  padding-right: 10%;
+  top: 0;
+  z-index: -999;
+  width: 34.66vw;
+  height: 19.5vw;
+}
+#prjDMP1 {
+  float: right;
+  padding-right: 10%;
+  top: 0;
+  z-index: -999;
+  width: 34.66vw;
+  height: 19.5vw;
+}
+#has1 {
+  float: left;
+  padding-left: 10%;
+  top: 0;
+  z-index: -999;
+  width: 34.66vw;
+  height: 19.5vw;
+}
+#ps1 {
+  float: right;
+  padding-right: 10%;
+  top: 0;
+  z-index: -999;
+  width: 34.66vw;
+  height: 19.5vw;
+}
+#tpd1 {
+  float: left;
+  padding-left: 10%;
+  top: 0;
+  z-index: -999;
+  width: 34.66vw;
+  height: 19.5vw;
+}
+#tpdPre1 {
+  float: right;
+  padding-right: 10%;
+  top: 0;
+  z-index: -999;
+  width: 34.66vw;
+  height: 19.5vw;
+}
+#videoBanner {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -999;
+}
+#emailVideo {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 90%;
+  margin: 20px auto;
+}
+
+.headerthing {
+  float: left;
+}
+
+img {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 90%;
+  margin: 20px auto;
+}
+
+/* Bottom Info Section */
+
+.cinfo {
+  float: left;
+  padding-left: 8.2%;
+  width: 22.3vw;
+}
+
+.cinfo img {
+width: 100%;
+}
+
+.cinfo p {
+  text-align: center;
+  padding-right: 6%;
+  font-size: 28px;
+}

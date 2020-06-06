@@ -1,215 +1,29 @@
 <!DOCTYPE html>
-<html>
 <html lang="en">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-html,body {
-  margin: 0;
-  padding: 0;
-}
-body {
-  background-color: #000000;
-}
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
 
-h1 {
-  font-size: 1vw;
-  font-family: 'Times New Roman', Times, serif;
-  color: #f7f4f5;
-  text-align: left;
-  margin: 0;
-  padding: 4px;
-}
-h2 {
-  font-size: 2vw;
-  font-family: 'Times New Roman', Times, serif;
-  color: #f7f4f5;
-  text-align: center;
-  text-shadow: 2px 2px rgb(0, 0, 0);
-  padding-top: 10%;
-}
-h3 {
-  font-size: 12px;
-  font-family: 'Times New Roman', Times, serif;
-  color: #f7f4f5;
-  text-align: left;
-  text-shadow: 2px 2px rgb(0, 0, 0);
-  margin: 0;
-  padding-left: 12px;
-}
-h4 {
-  font-size: 2vw;
-  font-family: 'Times New Roman', Times, serif;
-  color: #f7f4f5;
-  text-align: center;
-  text-shadow: 2px 2px rgb(0, 0, 0);
-  padding-top: 30%;
-  padding-bottom: 5%;
-}
-
-p {
-  font-size: 1.3vw;
-  font-family: 'Times New Roman', Times, serif;
-  color: #ffffff;
-  text-align: left;
-  margin-top: 1px;
-  margin-bottom: 1px;
-  padding-left: 10%;
-}
-a {
-  color: rgb(0, 255, 242);
-  font-size: 22px;
-  font-family: 'Times New Roman', Times, serif;
-  color: #ffffff;
-  text-align: left;
-  margin-top: 1px;
-  margin-bottom: 1px;
-  padding-left: 10%;
-}
-.small {
-  color: #d3ffd3;
-  font-size: 12px;
-  font-family: 'Arial';
-  text-align: right;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  padding-right: 4px;
-}
-.fat {
-  font-size: 28px;
-  font-style: italic;
-}
-.center {
-  text-align: center;
-  display: inline;
-}
-.right {
-  text-align: right;
-  padding-right: 10%;
-}
-.left25 {
-  text-align: left;
-  padding-left: 25%;
-}
-.rightForce {
-  position: absolute;
-  right: 0;
-}
-
-#blockH {
-  position: sticky;
-  top: 0;
-  height: 2em;
-  width: 100%;
-  background: rgba(105, 0, 79, 0.212);
-}
-#blockV {
-  position: sticky;
-  top: 2em;
-  height: 50em;
-  width: 8em;
-  background: rgba(105, 0, 79, 0.212);
-  float: left;
-}
-#testVideo {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  min-width: 100%;
-  min-height: 100%;
-}
-#venom-bite1 {
-  position: absolute;
-  top: 0;
-  z-index: -999;
-}
-#shipmentscrew1 {
-  float: right;
-  padding-right: 10%;
-  top: 0;
-  z-index: -999;
-  width: 34.66vw;
-  height: 19.5vw;
-}
-#prjDMP1 {
-  float: right;
-  padding-right: 10%;
-  top: 0;
-  z-index: -999;
-  width: 34.66vw;
-  height: 19.5vw;
-}
-#has1 {
-  float: left;
-  padding-left: 10%;
-  top: 0;
-  z-index: -999;
-  width: 34.66vw;
-  height: 19.5vw;
-}
-#ps1 {
-  float: right;
-  padding-right: 10%;
-  top: 0;
-  z-index: -999;
-  width: 34.66vw;
-  height: 19.5vw;
-}
-#tpd1 {
-  float: left;
-  padding-left: 10%;
-  top: 0;
-  z-index: -999;
-  width: 34.66vw;
-  height: 19.5vw;
-}
-#tpdPre1 {
-  float: right;
-  padding-right: 10%;
-  top: 0;
-  z-index: -999;
-  width: 34.66vw;
-  height: 19.5vw;
-}
-#videoBanner {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  z-index: -999;
-}
-#emailVideo {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 90%;
-  margin: 20px auto;
-}
-
-.headerthing {
-  float: left;
-}
-
-img {
-  display: block;
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 90%;
-  margin: 20px auto;
-}
-
-</style>
 
 <body>
     <video autoplay loop muted id="videoBanner">
+      <!-- FIXME: dead video?  -->
       <source src="finalVideoWebsiteSmall.mp4" type="video/mp4">
       </video>
-    <div id = blockH> <h1 class="headerthing">William Djalal</h1><h1 class="headerthing rightForce">william.priv@outlook.de</h1> </div>
-    <h2>William Djalal<br>aka SoulPixel<br><br>Developer/Gamedesigner/Leveldesigner</h2>
+
+    <div id ="blockH "> 
+      <h1 class="headerthing">William Djalal</h1><h1 class="headerthing rightForce">william.priv@outlook.de</h1>
+    </div>
+<div class="main">
+    <h2>William Djalal
+    <br>aka SoulPixel<br>
+    <br>Developer/Gamedesigner/Leveldesigner</h2>
+
     <h4>General Info</h4>
-    <img id = "shipmentscrew1" src = "shipmentscrewWebsite.png" width="640em" height="360em">
+    <img id = "shipmentscrew1" src = "images/shipmentscrewWebsite.png" width="640em" height="360em">
     <br>
     <p>My name is William Djalal, I'm 20 years old and live in Germany, Berlin.</p>
     <p>I study computer science at the Freie Universität Berlin.</p>
@@ -221,7 +35,7 @@ img {
     <p>My main projects consists of videogames in which I put all of my affort and creative thinking in to.
     <h4>Projects</h4>
     <br>
-    <img id = "prjDMP1" src = "prjDMPWebsite.jpg" width="640em" height="360em">
+    <img id = "prjDMP1" src = "images/prjDMPWebsite.jpg" width="640em" height="360em">
     <br>
     <br>
     <p class="fat">Project Heavy Shotgun [Late 2018 - Now]</p>
@@ -241,7 +55,7 @@ img {
     <br>
     <br>
     <br>
-    <img id = "has1" src = "hasWebsite.jpg" width="640em" height="360em">
+    <img id = "has1" src = "images/hasWebsite.jpg" width="640em" height="360em">
     <br>
     <br>
     <p class="right fat">How About Spikes [Late 2017 - Late 2018]</p>
@@ -262,7 +76,7 @@ img {
     <br>
     <br>
     <br>
-    <img id = "ps1" src = "planetspinWebsite.png" width="640em" height="360em">
+    <img id = "ps1" src = "images/planetspinWebsite.png" width="640em" height="360em">
     <br>
     <br>
     <p class="fat">Planet Spin [Mid 2017]</p>
@@ -282,7 +96,7 @@ img {
     <br>
     <br>
     <br>
-    <img id = "tpd1" src = "tpdWebsite.png" width="640em" height="360em">
+    <img id = "tpd1" src = "images/tpdWebsite.png" width="640em" height="360em">
     <br>
     <br>
     <p class="right fat">The Pink Danger 2 [Late 2016 - Early 2017]</p>
@@ -302,7 +116,7 @@ img {
     <br>
     <br>
     <br>
-    <img id = "tpdPre1" src = "tpdPreWebsite.png" width="640em" height="360em">
+    <img id = "tpdPre1" src = "images/tpdPreWebsite.png" width="640em" height="360em">
     <br>
     <br>
     <p class="fat">The Pink Danger [Mid 2016]</p>
@@ -328,43 +142,35 @@ img {
     <br>
     <h2>Contact</h2>
 
-    <style>
-      .cinfo {
-	  float: left;
-    padding-left: 8.2%;
-	  width: 22.3vw;
-      }
 
-      .cinfo img {
-	  width: 100%;
-      }
-
-      .cinfo p {
-	  text-align: center;
-    padding-right: 6%;
-    font-size: 28px;
-      }
-    </style>
-
+    <div class="bottom-container">
       <div class="cinfo">
           <a href='m&#97;ilto&#58;w%6&#57;&#108;%6Ciam&#46;p&#37;72i&#118;&#64;o&#37;75tl%&#54;F&#111;&#107;&#46;&#100;e'>
-            <video autoplay loop muted id="emailVideo">
-              <source src="emailLogoVideoWebsite.mp4" type="video/mp4">
-              </video> </a>
-	<p>Email</p>
+          <video autoplay loop muted id="emailVideo">
+          <source src="videos/emailLogoVideoWebsite.mp4" type="video/mp4">
+          </video>
+          </a>
+          <p>Email</p>
       </div>
+  
       <div class="cinfo">
         <a href="https://github.com/SoulPixelIV">
-          <video autoplay loop muted id="emailVideo">
-            <source src="githubLogoVideoWebsite.mp4" type="video/mp4">
-            </video> </a>
-<p>Github</p>
-    </div>
-  <div class="cinfo">
-      <video autoplay loop muted id="emailVideo">
-        <source src="discordLogoVideoWebsite.mp4" type="video/mp4">
+        <video autoplay loop muted id="emailVideo">
+        <source src="videos/githubLogoVideoWebsite.mp4" type="video/mp4">
+        </video>
+        </a>
+        <p>Github</p>
+      </div>
+  
+      <div class="cinfo">
+        <a href="https://github.com/SoulPixelIV">
+        <video autoplay loop muted id="emailVideo">
+        <source src="videos/discordLogoVideoWebsite.mp4" type="video/mp4">
         </video> </a>
-<p>Discord</p>
+        <p>Discord</p>
+      </div>
+    </div>
+    
 </div>
 </body>
 
