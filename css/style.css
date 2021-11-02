@@ -1,0 +1,189 @@
+@import url("fonts.css");
+@import url("grid.css");
+@import url("baguetteBox.min.css");
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#backgroundVideo {
+    position: fixed;
+    z-index: -1;
+}
+
+html {
+    color: white;
+}
+
+body {
+    font-family: 'Times New Roman', sans-serif;
+    font-size: 24px;
+    text-align: justify;
+}
+@media only screen and (max-width: 1599px) {
+    body{
+        font-size: 18px!important;
+    }
+}
+
+/*** Helfer Klassen
+************************************/
+/*.middle {
+    display: flex;
+    align-items: center;
+}
+@media only screen and (max-width: 767px) {
+    .distance {
+        margin-bottom: 65px;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .distance {
+        margin-bottom: 85px;
+    }
+}
+@media only screen and (min-width: 1600px) {
+    .distance {
+        margin-bottom: 150px;
+    }
+}*/
+.nopadding {
+    padding: 0;
+}
+
+/*** Header Styles
+************************************/
+/*Header layout*/
+
+/*Contact*/
+header .contact {
+    margin: 36px 0 164px;
+}
+header .contact p{
+    display: inline;
+    font-size: 19px;
+    font-weight: bold;
+}
+header .contact a {
+    text-align: right;
+    float: right;
+}
+header .contact a:link {
+    text-decoration: none;
+    color: white;
+}
+/*Name*/
+#headerContainer {
+    margin-bottom: 650px;
+}
+h1 {
+    font-size: 38px;
+    text-align: center;
+    margin-bottom: 42px;
+}
+h2 {
+    font-size: 38px;
+    text-align: center;
+}
+@media only screen and (max-width: 1599px) {
+    #headerContainer {
+        margin-bottom: 350px;
+    }
+    h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+    h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+}
+
+/*** Main Styles
+************************************/
+#headline {
+    margin-bottom: 200px;
+}
+@media only screen and (max-width: 1599px) {
+    #headline {
+        margin-bottom: 100px;
+    }
+}
+img {
+    width: 100%;
+    height: auto;
+}
+
+/*General Info*/
+#genInfoContainer{
+    margin-bottom: 500px;
+}
+@media only screen and (max-width: 1599px) {
+    #genInfoContainer{
+        margin-bottom: 300px;
+    }
+}
+
+/*Projects*/
+#mainContainer {
+    margin-bottom: 300px;
+}
+#prjContainer {
+    margin-bottom: 80px;
+}
+@media only screen and (max-width: 1599px) {
+    #mainContainer {
+        margin-bottom: 150px;
+    }
+    #prjContainer {
+        margin-bottom: 40px;
+    }
+}
+#prjContainer .right{
+    text-align: right;
+}
+#prjContainer p strong{
+    font-style: italic;
+}
+#prjContainer p a:link {
+    color: white;
+}
+#prjContainer .link a:hover {
+    color: rgb(212, 22, 140);
+}
+#prjContainer p a:visited {
+    text-decoration: none;
+    color: white;
+}
+
+
+/*** Footer Styles
+************************************/
+
+#footerContainer {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+#footerContainer h2{
+    margin-bottom: 48px;
+}
+#footerContainer p {
+    margin-bottom: 30px;
+}
+
+#footerContainer video {
+    max-width: 90%;
+    max-height: 90%;
+    width: auto;
+    height: auto;
+    padding: 40px;
+}
+@media only screen and (max-width: 1599px) {
+    #footerContainer video{
+        padding: 0!important;
+    }
+}
